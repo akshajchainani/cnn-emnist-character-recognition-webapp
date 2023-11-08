@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Handwriting character recognition</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Handwriting character recognition</h1>
+        
+        <section>
+            <canvas id="main-canvas" width="300" height="300"></canvas>
+            <canvas id="small-canvas" width="28" height="28"></canvas>
+            <div id="prediction"></div>
+        </section>
+        <div id="confidence">&#8212</div>
+
+        <button id="erase">reset</button>
+        <script src="script.js"></script>
+    </body>
+</html>
