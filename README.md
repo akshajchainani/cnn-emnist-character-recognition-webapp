@@ -1,4 +1,4 @@
-<img src="gif.gif">
+![Animated GIF](gif.gif)
 
 
 A handwritten digit recognition web app using Convolutional Neural Networks. Built with Keras and Tensorflow.js
